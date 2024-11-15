@@ -56,6 +56,16 @@ export const constantRoutes = [
     hidden: true
   },
   {
+    path: '/ai-login',
+    component: () => import('@/views/ai-code/login'),
+    hidden: true
+  },
+  {
+    path: '/ai-order',
+    component: () => import('@/views/ai-code/views/TakeoutOrder'),
+    hidden: true
+  },
+  {
     path: '/auth-redirect',
     component: () => import('@/views/login/auth-redirect'),
     hidden: true
